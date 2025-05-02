@@ -83,7 +83,7 @@ function enviarMensagem() {
     if (sala) mensagem += `• Sala de velório: ${sala}%0A`;
   }
 
-  const telefone = "967746927";
+  const telefone = "97603528";
   window.open(`https://wa.me/${telefone}?text=${mensagem}`, "_blank");
 }
 
