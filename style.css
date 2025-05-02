@@ -278,3 +278,15 @@ header h1, header p {
     max-width: 300px;
   }
 }
+
+footer{
+  background: #fff4e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  color: #000;
+  font-weight: bold;
+}
