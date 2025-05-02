@@ -22,6 +22,15 @@ function enviarMensagem() {
     return;
   }
 
+  const clientes = document.getElementById("nomeCliente").value.trim();
+  const velorio = document.getElementById("salaVelorio").value.trim();
+
+  if (clientes === "" || velorio === "") {
+    alert("Por favor, preencha o nome do responsável e a sala de velório para a identificação");
+    return;
+  }
+
+
   const itens = [
     { id: 1, nome: "Croissant", preco: 9.00 },
     { id: 2, nome: "Pão de queijo", preco: 8.00 },
