@@ -2,11 +2,21 @@
   box-sizing: border-box;
 }
 
+/*
+:root {
+  --cor-body: #f9f9f9;
+  --cor-botão: #8b5e3c;
+  --cor-secundaria: #2ecc71;
+  --fonte-principal: Arial, sans-serif;
+  --fonte-texto: sans-serif;
+}
+  */
+
 body {
   font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background: #e0dfdc;
   color: #333;
 }
 
