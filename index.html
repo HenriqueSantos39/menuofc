@@ -27,103 +27,101 @@
   <!-- Lanches -->
   <section id="lanches">
     <h2 style="text-align: center;">Lanches</h2>
-    <div class="cardapio-container">
-      <div class="item">
-        <img src="./images/croissant.jpeg" alt="Croissant presunto e queijo">
-        <div class="item-info">
-          <h3>Croissant</h3>
-          <p>Croissant presunto e queijo</p>
-          <p class="preco">R$ 9,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(1, -1)">−</button>
-            <span id="quantidade-1">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(1, 1)">+</button>
-          </div>
+  <div class="cardapio-container">
+    <div class="item">
+      <img src="./images/hamburgao.jpg" alt="pão recheado com carne suculenta e emcima um queijo mussarela">
+      <div class="item-info">
+        <h3>Hamburgão</h3>
+        <p>Hamburguer assado com carne e mussarela</p>
+        <p class="preco">R$ 9,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(1, -1)">−</button>
+          <span id="quantidade-1">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(1, 1)">+</button>
         </div>
       </div>
-
-      <div class="item">
-        <img src="./images/paoqueijomini.jpeg" alt="Pão de queijo 8 unidades">
-        <div class="item-info">
-          <h3>Pão de queijo mini</h3>
-          <p>Pão de queijo (8 unidades)</p>
-          <p class="preco">R$ 8,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(2, -1)">−</button>
-            <span id="quantidade-2">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(2, 1)">+</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="./images/queijogrande.jpg" alt="Hamburgão">
-        <div class="item-info">
-          <h3>Pão de queijo grande</h3>
-          <p>Pao de queijo unidade grande (90g)</p>
-          <p class="preco">R$ 6,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(3, -1)">−</button>
-            <span id="quantidade-3">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(3, 1)">+</button>
-          </div>
+    </div>
+  
+    <div class="item">
+      <img src="./images/croissant.jpeg" alt="Pão em formato de tiras, com o sabor de preseunto e queijo">
+      <div class="item-info">
+        <h3>Croissant</h3>
+        <p>Croissant recheado com presunto e queijo</p>
+        <p class="preco">R$ 9,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(2, -1)">−</button>
+          <span id="quantidade-2">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(2, 1)">+</button>
         </div>
       </div>
     </div>
 
-      <div class="item">
-        <img src="./images/paobatata.jpeg" alt="Pão de batata quatro queijos">
-        <div class="item-info">
-          <h3>Pão de Batata</h3>
-          <p>Pão de batata de 4 queijos</p>
-          <p class="preco">R$ 9,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(4, -1)">−</button>
-            <span id="quantidade-4">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(4, 1)">+</button>
-          </div>
+    <div class="item">
+      <img src="./images/bauru.jpg" alt="Pão recheado com presunto, queijo e tomate">
+      <div class="item-info">
+        <h3>Bauru</h3>
+        <p>Recheado com queijo e presunto</p>
+        <p class="preco">R$ 9,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(3, -1)">−</button>
+          <span id="quantidade-3">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(3, 1)">+</button>
         </div>
       </div>
-
-      <div class="item">
-        <img src="./images/esfihacarne.jpg" alt="Esfiha de carne">
-        <div class="item-info">
-          <h3>Esfiha de Carne</h3>
-          <p>Esfiha tradicional de carne</p>
-          <p class="preco">R$ 9,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(5, -1)">−</button>
-            <span id="quantidade-5">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(5, 1)">+</button>
-          </div>
+    </div>
+  
+    <div class="item">
+      <img src="./images/paobatata.jpeg" alt="Pão de batata recheado com 4 tipos de queijos">
+      <div class="item-info">
+        <h3>Pão de batata</h3>
+        <p>Pão de batata recheado com quatro tipos de quejos</p>
+        <p class="preco">R$ 9,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(4, -1)">−</button>
+          <span id="quantidade-4">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(4, 1)">+</button>
         </div>
       </div>
+    </div>
 
-      <div class="item">
-        <img src="./images/bauru.jpg" alt="Bauru">
-        <div class="item-info">
-          <h3>Bauru</h3>
-          <p>Pão recheado com presunto e queijo</p>
-          <p class="preco">R$ 9,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(6, -1)">−</button>
-            <span id="quantidade-6">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(6, 1)">+</button>
-          </div>
+    <div class="item">
+      <img src="./images/esfihacarne.jpg" alt="Esfiha de carne tradicional">
+      <div class="item-info">
+        <h3>Esfiha</h3>
+        <p>Esfiha fechada de carne, sabor tradiocional carne</p>
+        <p class="preco">R$ 9,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(5, -1)">−</button>
+          <span id="quantidade-5">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(5, 1)">+</button>
         </div>
       </div>
+    </div>
 
-      <div class="item">
-        <img src="./images/hamburgao.jpg" alt="Hamburgão">
-        <div class="item-info">
-          <h3>Hamburgão</h3>
-          <p>Hambúrguer recheado com carne e mussarela</p>
-          <p class="preco">R$ 9,00</p>
-          <div class="quantidade-container">
-            <button class="btn-menos" onclick="alterarQuantidade(7, -1)">−</button>
-            <span id="quantidade-7">0</span>
-            <button class="btn-mais" onclick="alterarQuantidade(7, 1)">+</button>
-          </div>
+    <div class="item">
+      <img src="./images/paoqueijomini.jpeg" alt="Mini pães de queijo, no pacote oito unidades">
+      <div class="item-info">
+        <h3>Pao de queijo ( Mini )</h3>
+        <p>Acompanha 8 unidades de pão de queijos pequenos</p>
+        <p class="preco">R$ 8,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(6, -1)">−</button>
+          <span id="quantidade-6">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(6, 1)">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="./images/queijogrande.jpg" alt="Pão de queijo grande ">
+      <div class="item-info">
+        <h3>Pao de queijo</h3>
+        <p>Acompanha 1 unidade de pao de queijo ( Grande )</p>
+        <p class="preco">R$ 6,00</p>
+        <div class="quantidade-container">
+          <button class="btn-menos" onclick="alterarQuantidade(7, -1)">−</button>
+          <span id="quantidade-7">0</span>
+          <button class="btn-mais" onclick="alterarQuantidade(7, 1)">+</button>
         </div>
       </div>
     </div>

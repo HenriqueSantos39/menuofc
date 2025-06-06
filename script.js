@@ -12,7 +12,6 @@ function selecionarPagamento(botao, metodo) {
   botao.classList.add('selected');
   metodoSelecionado = metodo;
 
-  // Mostrar inputs de nome e sala ao selecionar o método
   document.getElementById('detalhes-pedido').style.display = 'flex';
 }
 
@@ -32,19 +31,19 @@ function enviarMensagem() {
 
 
   const itens = [
-    { id: 1, nome: "Croissant", preco: 9.00 },
-    { id: 2, nome: "Pão de queijo", preco: 8.00 },
-    { id: 3, nome: "Pão de queijo (90g)", preco: 6.00 },
+    { id: 2, nome: "Croissant", preco: 9.00 },
+    { id: 6, nome: "Pão de queijo", preco: 8.00 },
+    { id: 7, nome: "Pão de queijo (90g)", preco: 6.00 },
     { id: 4, nome: "Pão de Batata", preco: 9.00 },
     { id: 5, nome: "Esfiha", preco: 9.00 },
-    { id: 6, nome: "Bauru", preco: 9.00 },
-    { id: 7, nome: "Hamburgão", preco: 9.00 },
+    { id: 3, nome: "Bauru", preco: 9.00 },
+    { id: 1, nome: "Hamburgão", preco: 9.00 },
     { id: 8, nome: "Suco", preco: 8.00 },
     { id: 9, nome: "Café Expresso", preco: 8.00 },
     { id: 10, nome: "Café com leite", preco: 9.00 },
-    { id: 11, nome: "Refrigerante", preco: 9.00 },
-    { id: 12, nome: "Agua", preco: 9.00 },
-    { id: 13, nome: "Agua de coco", preco: 8.00 },
+    { id: 11, nome: "Refrigerante", preco: 8.00 },
+    { id: 12, nome: "Agua", preco: 6.00 },
+    { id: 13, nome: "Agua de coco", preco: 7.00 },
     { id: 14, nome: "Buffet Completo", preco: 300.00 },
     { id: 15, nome: "Reposição de café", preco: 70.00 },
     { id: 16, nome: "Reposição de Água", preco: 30.00 },
